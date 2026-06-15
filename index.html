@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jin Kei Massoterapia Oriental | Shiatsu, Acupuntura e Muito Mais em Balneário Camboriú</title>
+  <meta name="description" content="Há 17 anos aliviando dores físicas e emocionais. Shiatsu, Acupuntura, Drenagem Linfática, Reflexologia e mais. Agende sua sessão em Balneário Camboriú – SC." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.jinkeimassoterapia.com.br/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Jin Kei Massoterapia Oriental" />
+  <meta property="og:title" content="Jin Kei Massoterapia Oriental | Balneário Camboriú" />
+  <meta property="og:description" content="17 anos cuidando de corpos e mentes. Shiatsu, Acupuntura, Drenagem Linfática e mais. Agende pelo WhatsApp." />
+  <meta property="og:url" content="https://www.jinkeimassoterapia.com.br/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://www.jinkeimassoterapia.com.br/","name":"Jin Kei Massoterapia Oriental","image":"https://www.jinkeimassoterapia.com.br/assets/img/logo.png","url":"https://www.jinkeimassoterapia.com.br/","telephone":"+55-47-99928-2142","description":"Há 17 anos aliviando dores físicas e emocionais através da sabedoria da massoterapia oriental em Balneário Camboriú.","address":{"@type":"PostalAddress","streetAddress":"Rua 3300, 330 – Sala 02, Térreo da Academia Wave Barra Sul","addressLocality":"Balneário Camboriú","addressRegion":"SC","postalCode":"88330-272","addressCountry":"BR"},"geo":{"@type":"GeoCoordinates","latitude":-26.9979,"longitude":-48.6346},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"21:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"14:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"5","reviewCount":"71"},"priceRange":"$$","currenciesAccepted":"BRL","paymentAccepted":"Cartão de Crédito, Cartão de Débito, NFC, MasterCard","sameAs":["https://www.instagram.com/jinkeimassoterapiaoriental/"]}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    .hero{background:var(--paper);padding:5rem 0 6rem}
+    .hero__bg-wave{position:absolute;bottom:0;left:0;right:0;height:200px;background:radial-gradient(ellipse 80px 40px at 0% 80%,rgba(229,31,28,.06) 0%,transparent 100%),radial-gradient(ellipse 80px 40px at 50% 85%,rgba(229,31,28,.06) 0%,transparent 100%),radial-gradient(ellipse 80px 40px at 100% 80%,rgba(229,31,28,.06) 0%,transparent 100%);pointer-events:none}
+    .hero__icons{display:flex;gap:1.4rem}
+    .hero__icon-item{display:flex;flex-direction:column;align-items:center;gap:.45rem}
+    .hero__icon-item i{font-size:2.2rem;color:var(--red)}
+    .hero__icon-item span{font-family:var(--font-mono);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);text-align:center}
+    .hero__plate-desc{font-family:var(--font-display);font-size:1.4rem;font-weight:700;max-width:18ch;color:var(--ink);line-height:1.3;text-align:center}
+    .hero__plate-foot{font-family:var(--font-mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);border-top:1px dashed var(--paper-deep);padding-top:.9rem;width:100%;text-align:center}
+    .sobre-preview{display:grid;grid-template-columns:1.1fr .9fr;gap:3.5rem;align-items:center}
+    .sobre-preview__media{position:relative}
+    .sobre-preview__badge{position:absolute;bottom:-1.2rem;right:-1rem}
+    .servicos-mini{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem}
+    .servico-pill{background:var(--paper-alt);border:1px solid var(--paper-deep);border-radius:999px;padding:.7em 1.3em;display:flex;align-items:center;gap:.6em;font-weight:500;font-size:.9rem;transition:background var(--t-fast),border-color var(--t-fast),color var(--t-fast);list-style:none}
+    .servico-pill i{color:var(--red);font-size:.85rem}
+    .servico-pill:hover{background:var(--red);color:var(--cream);border-color:var(--red)}
+    .servico-pill:hover i{color:var(--cream)}
+    .diff-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
+    .diff-item{display:flex;gap:1.1rem;align-items:flex-start}
+    .diff-item__icon{width:48px;height:48px;border-radius:12px;background:rgba(229,31,28,.2);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--red);font-size:1.2rem}
+    .section--ink .diff-item__icon{background:rgba(229,31,28,.25)}
+    .section--ink .diff-item h3{color:var(--cream)}
+    .section--ink .diff-item p{color:#B0A59D}
+    .diff-item h3{font-size:1.05rem;margin-bottom:.3em}
+    .diff-item p{font-size:.9rem;margin:0}
+    .seo-text{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:2rem}
+    .seo-text p{font-size:.95rem}
+    @media(max-width:980px){
+      .sobre-preview,.seo-text{grid-template-columns:1fr}
+      .servicos-mini{grid-template-columns:repeat(2,1fr)}
+      .diff-grid{grid-template-columns:1fr 1fr}
+    }
+    @media(max-width:600px){
+      .servicos-mini{grid-template-columns:1fr 1fr}
+      .diff-grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header" role="banner">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="Jin Kei Massoterapia Oriental — Início">
+      <img src="assets/img/logo.png" alt="Logo Jin Kei Massoterapia Oriental" width="46" height="46" />
+      <span>Jin Kei<small>Massoterapia Oriental</small></span>
+    </a>
+    <nav class="nav" aria-label="Navegação principal">
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="depoimentos.html">Depoimentos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <a class="btn btn--primary btn--sm nav__cta" href="https://wa.me/5547999282142?text=Olá!%20Gostaria%20de%20agendar%20uma%20sessão." target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> Agendar
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Apresentação">
+    <div class="hero__bg-wave" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Balneário Camboriú – SC</p>
+          <h1>Seu corpo merece<br /><em>cuidado de verdade.</em></h1>
+          <p class="hero__lead">Há <strong>17 anos</strong> aliviamos dores físicas e emocionais com a sabedoria da massoterapia oriental. Cada sessão é pensada para cuidar de você como um todo.</p>
+          <div class="hero__ctas">
+            <a class="btn btn--primary" href="https://wa.me/5547999282142?text=Olá!%20Quero%20agendar%20uma%20sessão%20na%20Jin%20Kei." target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i> Agendar pelo WhatsApp
+            </a>
+            <a class="btn btn--outline" href="servicos.html">Ver serviços</a>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__plate">
+            <div class="hero__icons">
+              <div class="hero__icon-item"><i class="fa-solid fa-hand-holding-heart"></i><span>Shiatsu</span></div>
+              <div class="hero__icon-item"><i class="fa-solid fa-seedling"></i><span>Acupuntura</span></div>
+              <div class="hero__icon-item"><i class="fa-solid fa-droplet"></i><span>Drenagem</span></div>
+            </div>
+            <p class="hero__plate-desc">Equilíbrio entre corpo, mente e energia.</p>
+            <p class="hero__plate-foot"><i class="fa-solid fa-location-dot"></i>&nbsp;Academia Wave Barra Sul · BC</p>
+          </div>
+          <div class="hero__stamp stamp stamp--anim" role="img" aria-label="17 anos de experiência">
+            <span>Desde</span>
+            <strong>2007</strong>
+            <span>17 anos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" aria-label="Números da Jin Kei">
+    <div class="container">
+      <div class="stats__grid reveal-stagger">
+        <div class="stat">
+          <span class="stats__num" data-counter data-to="17" data-suffix="+">17<span class="stats__suffix">+</span></span>
+          <span class="stats__label">Anos de experiência</span>
+        </div>
+        <div class="stat">
+          <span class="stats__num" data-counter data-to="30000" data-suffix="+">30.000<span class="stats__suffix">+</span></span>
+          <span class="stats__label">Horas de atendimento</span>
+        </div>
+        <div class="stat">
+          <span class="stats__num" data-counter data-to="71">71</span>
+          <span class="stats__label">Avaliações 5★ no Google</span>
+        </div>
+        <div class="stat">
+          <span class="stats__num" data-counter data-to="15" data-suffix="+">15<span class="stats__suffix">+</span></span>
+          <span class="stats__label">Técnicas disponíveis</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE PREVIEW -->
+  <section class="section" aria-labelledby="sobre-head">
+    <div class="container">
+      <div class="sobre-preview">
+        <div class="sobre-preview__text">
+          <p class="eyebrow">Nossa história</p>
+          <h2 id="sobre-head">Uma clínica construída com propósito.</h2>
+          <p>A Jin Kei nasceu da crença de que o toque certo pode transformar vidas. Fundada em <strong>2007</strong>, nossa clínica une técnicas milenares com uma abordagem moderna e acolhedora.</p>
+          <p>Somos um espaço <strong>inclusivo</strong>, que acolhe a todos com respeito e carinho — incluindo a comunidade LGBTQ+ e pessoas com necessidades de acessibilidade.</p>
+          <ul class="check-list" role="list">
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Profissionais certificados com anos de prática</li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Ambiente climatizado, cheiroso e aconchegante</li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Atendimento personalizado para cada pessoa</li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Espaço acessível para cadeirantes</li>
+          </ul>
+          <a href="sobre.html" class="btn btn--outline" style="margin-top:1.8rem;">Conheça nossa história <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="sobre-preview__media reveal">
+          <div class="media-frame">
+            <i class="fa-solid fa-spa" aria-hidden="true"></i>
+            <span>Foto do espaço ou equipe Jin Kei</span>
+          </div>
+          <div class="sobre-preview__badge">
+            <div class="stamp stamp--ink" style="--rot:5deg;" aria-label="Espaço inclusivo">
+              <i class="fa-solid fa-heart"></i>
+              <strong style="font-size:1rem;">Inclusivo</strong>
+              <span>& Acessível</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS MINI GRID -->
+  <section class="section section--alt" aria-labelledby="servicos-head">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">O que oferecemos</p>
+        <h2 id="servicos-head">Técnicas orientais para cada necessidade do seu corpo.</h2>
+        <p>Do alívio de dores à renovação total de energia — temos o cuidado certo para você.</p>
+      </div>
+      <ul class="servicos-mini reveal-stagger" role="list">
+        <li class="servico-pill"><i class="fa-solid fa-hands"></i> Shiatsu</li>
+        <li class="servico-pill"><i class="fa-solid fa-syringe"></i> Acupuntura</li>
+        <li class="servico-pill"><i class="fa-solid fa-droplet"></i> Drenagem Linfática</li>
+        <li class="servico-pill"><i class="fa-solid fa-person-walking"></i> Reflexologia</li>
+        <li class="servico-pill"><i class="fa-solid fa-wind"></i> Ventosaterapia</li>
+        <li class="servico-pill"><i class="fa-solid fa-heart-pulse"></i> Massagem Terapêutica</li>
+        <li class="servico-pill"><i class="fa-solid fa-bed"></i> Massagem Relaxante</li>
+        <li class="servico-pill"><i class="fa-solid fa-baby"></i> Massagem para Grávidas</li>
+        <li class="servico-pill"><i class="fa-solid fa-user-doctor"></i> Massagem Pós-Operatória</li>
+        <li class="servico-pill"><i class="fa-solid fa-ear-listen"></i> Auriculoterapia</li>
+        <li class="servico-pill"><i class="fa-solid fa-person-cane"></i> Massagem para Idosos</li>
+        <li class="servico-pill"><i class="fa-solid fa-brain"></i> Liberação Miofascial</li>
+        <li class="servico-pill"><i class="fa-solid fa-bolt"></i> Quick Massage</li>
+        <li class="servico-pill"><i class="fa-solid fa-eye"></i> O Corpo Explica</li>
+        <li class="servico-pill"><i class="fa-solid fa-bone"></i> Massagem para Coluna</li>
+        <li class="servico-pill"><i class="fa-solid fa-star"></i> Massagem na Cabeça</li>
+      </ul>
+      <div style="text-align:center;margin-top:2.8rem;">
+        <a href="servicos.html" class="btn btn--primary">Ver todos os serviços <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section class="section section--ink" aria-labelledby="beneficios-head">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow" style="color:var(--red);">Por que a massoterapia?</p>
+        <h2 id="beneficios-head">Benefícios comprovados para corpo e mente.</h2>
+      </div>
+      <div class="diff-grid reveal-stagger">
+        <div class="diff-item">
+          <div class="diff-item__icon"><i class="fa-solid fa-brain"></i></div>
+          <div><h3>Redução de estresse e ansiedade</h3><p>Técnicas orientais regulam o sistema nervoso, proporcionando calma profunda e equilíbrio emocional.</p></div>
+        </div>
+        <div class="diff-item">
+          <div class="diff-item__icon"><i class="fa-solid fa-bone"></i></div>
+          <div><h3>Alívio de dores musculares</h3><p>Identificamos e tratamos pontos de tensão, aliviando dores musculares e articulares de forma eficaz.</p></div>
+        </div>
+        <div class="diff-item">
+          <div class="diff-item__icon"><i class="fa-solid fa-shield-heart"></i></div>
+          <div><h3>Fortalecimento imunológico</h3><p>Sessões regulares estimulam o sistema imune, deixando o organismo mais resistente e saudável.</p></div>
+        </div>
+        <div class="diff-item">
+          <div class="diff-item__icon"><i class="fa-solid fa-moon"></i></div>
+          <div><h3>Melhoria no sono</h3><p>O relaxamento profundo proporcionado pelas sessões regula o ritmo circadiano e a qualidade do descanso.</p></div>
+        </div>
+        <div class="diff-item">
+          <div class="diff-item__icon"><i class="fa-solid fa-droplet"></i></div>
+          <div><h3>Estímulo circulatório</h3><p>Drenagem linfática e massagens ativam a circulação sanguínea e auxiliam na eliminação de toxinas.</p></div>
+        </div>
+        <div class="diff-item">
+          <div class="diff-item__icon"><i class="fa-solid fa-yin-yang"></i></div>
+          <div><h3>Equilíbrio energético</h3><p>O shiatsu e a acupuntura trabalham os meridianos para restabelecer o fluxo vital de energia do corpo.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS PREVIEW -->
+  <section class="section" aria-labelledby="dep-head">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">O que dizem nossos clientes</p>
+        <h2 id="dep-head">Quem cuida do corpo na Jin Kei, volta sempre.</h2>
+        <div style="margin:1.2rem auto 0;display:flex;justify-content:center;">
+          <div class="rating-summary" aria-label="5 estrelas — 71 avaliações no Google">
+            <div class="rating-summary__score">5.0</div>
+            <div>
+              <p class="rating-summary__stars">★★★★★</p>
+              <p class="rating-summary__count">71 avaliações no Google</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-grid reveal-stagger">
+        <article class="testi-card">
+          <p class="testi-card__stars" aria-label="5 estrelas">★★★★★</p>
+          <p>"O local é muito aconchegante, cheiroso e climatizado e a energia da Camila transmite muita paz. Fiz Shiatsu e massagem relaxante — estava super tensa e aliviei as tensões em minutos, estou renovada!"</p>
+          <div class="testi-card__author"><strong>Herily Sato</strong>Cliente Jin Kei · 4 meses atrás</div>
+        </article>
+        <article class="testi-card">
+          <p class="testi-card__stars" aria-label="5 estrelas">★★★★★</p>
+          <p>"É maravilhoso sentir a energia da Paola e da Camila. Já sou cliente há 3 anos e a cada ida fico mais apaixonado pelos cuidados recebidos. Adoro o espaço, localização excelente, tudo perfeito!"</p>
+          <div class="testi-card__author"><strong>Wanderlei Rogério</strong>Cliente Jin Kei · 4 meses atrás</div>
+        </article>
+        <article class="testi-card">
+          <p class="testi-card__stars" aria-label="5 estrelas">★★★★★</p>
+          <p>"Tive uma experiência maravilhosa — com certeza foi a melhor massagem da vida! Profissionais no serviço e com muito conhecimento. Sinto que cuido realmente da minha saúde aqui."</p>
+          <div class="testi-card__author"><strong>Cliente Jin Kei</strong>Avaliação Google</div>
+        </article>
+      </div>
+      <div style="text-align:center;margin-top:2.4rem;">
+        <a href="depoimentos.html" class="btn btn--outline">Ver todos os depoimentos <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="cta-band" aria-labelledby="cta-head">
+    <div class="container">
+      <div class="stamp stamp--sm" style="--rot:-3deg;margin:0 auto 2rem;display:table;" aria-hidden="true">
+        <span>Agende</span><strong style="font-size:1.05rem;">Hoje</strong>
+      </div>
+      <h2 id="cta-head">Dê ao seu corpo o cuidado que ele merece.</h2>
+      <p>Atendemos de segunda a sexta das 08h às 21h e sábado das 08h às 14h. Sua sessão está a uma mensagem de distância.</p>
+      <div class="cta-band__ctas">
+        <a class="btn btn--primary" href="https://wa.me/5547999282142?text=Olá!%20Gostaria%20de%20agendar%20uma%20sessão%20na%20Jin%20Kei." target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i> Agendar pelo WhatsApp
+        </a>
+        <a class="btn btn--ghost" href="contato.html">Ver endereço e horários</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEO RICO -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Jin Kei em Balneário Camboriú</p>
+        <h2>Massoterapia oriental com 17 anos de história em Balneário Camboriú – SC</h2>
+      </div>
+      <div class="seo-text">
+        <div>
+          <p>A <strong>Jin Kei Massoterapia Oriental</strong> é referência em <strong>massagem terapêutica em Balneário Camboriú</strong>. Localizada na Rua 3300, 330 — Sala 02, no térreo da <strong>Academia Wave Barra Sul</strong>, nossa clínica oferece <strong>Shiatsu</strong>, <strong>Acupuntura</strong>, <strong>Drenagem Linfática</strong>, <strong>Reflexologia</strong>, <strong>Ventosaterapia</strong>, <strong>Liberação Miofascial</strong> e muito mais.</p>
+          <p>Nossa equipe conta com profissionais certificados, comprometidos em oferecer <strong>massagem relaxante em Balneário Camboriú</strong> de alto padrão. Se você busca <strong>alívio de dores musculares em BC</strong> ou equilíbrio energético, você encontrará aqui.</p>
+        </div>
+        <div>
+          <p>Somos especialistas em <strong>massagem pós-operatória</strong>, <strong>massagem para gestantes em Balneário Camboriú</strong>, <strong>massagem para idosos</strong> e <strong>massagem para dor na coluna</strong>. O espaço é acessível para cadeirantes e acolhe a comunidade LGBTQ+.</p>
+          <p>Com mais de <strong>30.000 horas de atendimento</strong> e 71 avaliações 5 estrelas no Google, a Jin Kei é a escolha número um para quem busca <strong>acupuntura em Balneário Camboriú</strong>. <a href="contato.html">Entre em contato</a> e agende sua sessão hoje.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="Logo Jin Kei" width="44" height="44" /><span>Jin Kei<small>Massoterapia Oriental</small></span></a>
+        <p>Há 17 anos transformando vidas através do poder terapêutico do toque oriental.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/jinkeimassoterapiaoriental/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/5547999282142" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://open.spotify.com/playlist/0KGsDxLjRMLFHE06vphagv?si=74e23ffc13ca413d" target="_blank" rel="noopener" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+          <a href="https://share.google/F0FlMP5uKK5wXXTm6" target="_blank" rel="noopener" aria-label="Google Maps"><i class="fa-brands fa-google"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul role="list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre a Clínica</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="depoimentos.html">Depoimentos</a></li>
+          <li><a href="contato.html">Contato & Localização</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Horários</h4>
+        <ul role="list" style="font-size:.88rem;">
+          <li class="schedule-row"><span>Segunda–Sexta</span><span>08h – 21h</span></li>
+          <li class="schedule-row"><span>Sábado</span><span>08h – 14h</span></li>
+          <li class="schedule-row"><span>Domingo</span><span style="color:#9C9189;">Fechado</span></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul role="list" style="font-size:.88rem;gap:.9rem;">
+          <li><i class="fa-solid fa-location-dot" style="color:var(--red);margin-right:.5em;"></i>Rua 3300, 330 – Sala 02<br>Academia Wave Barra Sul<br>Centro, Balneário Camboriú – SC</li>
+          <li><a href="https://wa.me/5547999282142" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" style="color:#25D366;margin-right:.5em;"></i>(47) 99928-2142</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; <span id="year"></span> Jin Kei Massoterapia Oriental. Todos os direitos reservados.</span>
+      <span>Desenvolvido com <i class="fa-solid fa-heart" style="color:var(--red);"></i> em Balneário Camboriú</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/5547999282142?text=Olá!%20Gostaria%20de%20agendar%20uma%20sessão%20na%20Jin%20Kei." target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+<button class="back-top" aria-label="Voltar ao topo"><i class="fa-solid fa-chevron-up"></i></button>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

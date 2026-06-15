@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.jinkeimassoterapia.com.br/sitemap.xml
